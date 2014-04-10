@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B19C21718F5C3C10076B57E /* zylo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 6B19C21618F5C3C10076B57E /* zylo.MOV */; };
+		6B30DD0D15A7665D00B12CD2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B30DD0C15A7665D00B12CD2 /* CoreMedia.framework */; };
+		6B441ECC15A6503F00D4E74A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B441ECB15A6503F00D4E74A /* UIKit.framework */; };
+		6B441ECE15A6503F00D4E74A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B441ECD15A6503F00D4E74A /* Foundation.framework */; };
+		6B441ED015A6503F00D4E74A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B441ECF15A6503F00D4E74A /* CoreGraphics.framework */; };
+		6B441ED615A6503F00D4E74A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B441ED415A6503F00D4E74A /* InfoPlist.strings */; };
+		6B441ED815A6503F00D4E74A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B441ED715A6503F00D4E74A /* main.m */; };
+		6B441EDC15A6503F00D4E74A /* MyPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B441EDB15A6503F00D4E74A /* MyPlayerAppDelegate.m */; };
+		6B441EE215A6503F00D4E74A /* MyPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B441EE115A6503F00D4E74A /* MyPlayerViewController.m */; };
+		6B441EEA15A651EE00D4E74A /* MyPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B441EE915A651EE00D4E74A /* MyPlayerView.m */; };
+		6B441EEC15A6545900D4E74A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B441EEB15A6545900D4E74A /* MediaPlayer.framework */; };
+		6B4B6FB718E11D8900A11BC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4B6FB618E11D8900A11BC3 /* Default-568h@2x.png */; };
+		6B8400ED15A71CBA00CCE92B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8400EC15A71CBA00CCE92B /* AVFoundation.framework */; };
+		6BBAE53A16A8A05800167070 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBAE53916A8A05800167070 /* iPhoneStoryboard.storyboard */; };
+		6BEB23EA16A88B2B005C46F0 /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB23E916A88B2B005C46F0 /* iPadStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B19C21618F5C3C10076B57E /* zylo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = zylo.MOV; sourceTree = "<group>"; };
+		6B30DD0C15A7665D00B12CD2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6B441EC715A6503F00D4E74A /* MyPlayer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B441ECB15A6503F00D4E74A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B441ECD15A6503F00D4E74A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B441ECF15A6503F00D4E74A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B441ED315A6503F00D4E74A /* MyPlayer2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPlayer2-Info.plist"; sourceTree = "<group>"; };
+		6B441ED515A6503F00D4E74A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B441ED715A6503F00D4E74A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B441ED915A6503F00D4E74A /* MyPlayer2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPlayer2-Prefix.pch"; sourceTree = "<group>"; };
+		6B441EDA15A6503F00D4E74A /* MyPlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlayerAppDelegate.h; sourceTree = "<group>"; };
+		6B441EDB15A6503F00D4E74A /* MyPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlayerAppDelegate.m; sourceTree = "<group>"; };
+		6B441EE015A6503F00D4E74A /* MyPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlayerViewController.h; sourceTree = "<group>"; };
+		6B441EE115A6503F00D4E74A /* MyPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlayerViewController.m; sourceTree = "<group>"; };
+		6B441EE815A651EE00D4E74A /* MyPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayerView.h; sourceTree = "<group>"; };
+		6B441EE915A651EE00D4E74A /* MyPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlayerView.m; sourceTree = "<group>"; };
+		6B441EEB15A6545900D4E74A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6B4B6FB618E11D8900A11BC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B8400EC15A71CBA00CCE92B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6BBAE53916A8A05800167070 /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		6BEB23E916A88B2B005C46F0 /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPadStoryboard.storyboard; path = ../iPadStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B441EC415A6503F00D4E74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B30DD0D15A7665D00B12CD2 /* CoreMedia.framework in Frameworks */,
+				6B8400ED15A71CBA00CCE92B /* AVFoundation.framework in Frameworks */,
+				6B441EEC15A6545900D4E74A /* MediaPlayer.framework in Frameworks */,
+				6B441ECC15A6503F00D4E74A /* UIKit.framework in Frameworks */,
+				6B441ECE15A6503F00D4E74A /* Foundation.framework in Frameworks */,
+				6B441ED015A6503F00D4E74A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B441EBC15A6503F00D4E74A = {
+			isa = PBXGroup;
+			children = (
+				6B4B6FB618E11D8900A11BC3 /* Default-568h@2x.png */,
+				6B441ED115A6503F00D4E74A /* MyPlayer2 */,
+				6B441ECA15A6503F00D4E74A /* Frameworks */,
+				6B441EC815A6503F00D4E74A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B441EC815A6503F00D4E74A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B441EC715A6503F00D4E74A /* MyPlayer2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B441ECA15A6503F00D4E74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8400EC15A71CBA00CCE92B /* AVFoundation.framework */,
+				6B30DD0C15A7665D00B12CD2 /* CoreMedia.framework */,
+				6B441EEB15A6545900D4E74A /* MediaPlayer.framework */,
+				6B441ECB15A6503F00D4E74A /* UIKit.framework */,
+				6B441ECD15A6503F00D4E74A /* Foundation.framework */,
+				6B441ECF15A6503F00D4E74A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B441ED115A6503F00D4E74A /* MyPlayer2 */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB23E916A88B2B005C46F0 /* iPadStoryboard.storyboard */,
+				6BBAE53916A8A05800167070 /* iPhoneStoryboard.storyboard */,
+				6B441EDA15A6503F00D4E74A /* MyPlayerAppDelegate.h */,
+				6B441EDB15A6503F00D4E74A /* MyPlayerAppDelegate.m */,
+				6B441EE815A651EE00D4E74A /* MyPlayerView.h */,
+				6B441EE915A651EE00D4E74A /* MyPlayerView.m */,
+				6B441EE015A6503F00D4E74A /* MyPlayerViewController.h */,
+				6B441EE115A6503F00D4E74A /* MyPlayerViewController.m */,
+				6B441ED215A6503F00D4E74A /* Supporting Files */,
+			);
+			path = MyPlayer2;
+			sourceTree = "<group>";
+		};
+		6B441ED215A6503F00D4E74A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B19C21618F5C3C10076B57E /* zylo.MOV */,
+				6B441ED315A6503F00D4E74A /* MyPlayer2-Info.plist */,
+				6B441ED415A6503F00D4E74A /* InfoPlist.strings */,
+				6B441ED715A6503F00D4E74A /* main.m */,
+				6B441ED915A6503F00D4E74A /* MyPlayer2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B441EC615A6503F00D4E74A /* MyPlayer2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B441EE515A6503F00D4E74A /* Build configuration list for PBXNativeTarget "MyPlayer2" */;
+			buildPhases = (
+				6B441EC315A6503F00D4E74A /* Sources */,
+				6B441EC415A6503F00D4E74A /* Frameworks */,
+				6B441EC515A6503F00D4E74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPlayer2;
+			productName = MyPlayer2;
+			productReference = 6B441EC715A6503F00D4E74A /* MyPlayer2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B441EBE15A6503F00D4E74A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyPlayer;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					6B441EC615A6503F00D4E74A = {
+						DevelopmentTeam = CUW99RVU9C;
+					};
+				};
+			};
+			buildConfigurationList = 6B441EC115A6503F00D4E74A /* Build configuration list for PBXProject "MyPlayer2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B441EBC15A6503F00D4E74A;
+			productRefGroup = 6B441EC815A6503F00D4E74A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B441EC615A6503F00D4E74A /* MyPlayer2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B441EC515A6503F00D4E74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B441ED615A6503F00D4E74A /* InfoPlist.strings in Resources */,
+				6BEB23EA16A88B2B005C46F0 /* iPadStoryboard.storyboard in Resources */,
+				6B4B6FB718E11D8900A11BC3 /* Default-568h@2x.png in Resources */,
+				6B19C21718F5C3C10076B57E /* zylo.MOV in Resources */,
+				6BBAE53A16A8A05800167070 /* iPhoneStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B441EC315A6503F00D4E74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B441ED815A6503F00D4E74A /* main.m in Sources */,
+				6B441EDC15A6503F00D4E74A /* MyPlayerAppDelegate.m in Sources */,
+				6B441EE215A6503F00D4E74A /* MyPlayerViewController.m in Sources */,
+				6B441EEA15A651EE00D4E74A /* MyPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B441ED415A6503F00D4E74A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B441ED515A6503F00D4E74A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B441EE315A6503F00D4E74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6B441EE415A6503F00D4E74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B441EE615A6503F00D4E74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPlayer2/MyPlayer2-Prefix.pch";
+				INFOPLIST_FILE = "MyPlayer2/MyPlayer2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B441EE715A6503F00D4E74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPlayer2/MyPlayer2-Prefix.pch";
+				INFOPLIST_FILE = "MyPlayer2/MyPlayer2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B441EC115A6503F00D4E74A /* Build configuration list for PBXProject "MyPlayer2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B441EE315A6503F00D4E74A /* Debug */,
+				6B441EE415A6503F00D4E74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B441EE515A6503F00D4E74A /* Build configuration list for PBXNativeTarget "MyPlayer2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B441EE615A6503F00D4E74A /* Debug */,
+				6B441EE715A6503F00D4E74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B441EBE15A6503F00D4E74A /* Project object */;
+}
